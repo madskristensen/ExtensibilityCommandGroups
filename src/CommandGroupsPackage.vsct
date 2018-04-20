@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+
+  <Commands package="guidCommandGroupsPackage">
+    <Groups>
+      <Group guid="guidVsixGroups" id="OTHER_WINDOWS" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CSCD_WINDOWS"/>
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidtest" id="OTHER_WINDOWS_TESTBUTTON" priority="0x0100" type="Button">
+        <Parent guid="guidVsixGroups" id="OTHER_WINDOWS" />
+        <Strings>
+          <ButtonText>Invoke Command1</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidCommandGroupsPackage" value="{fb035c37-9d8e-4c86-856f-aada23222675}" />
+
+    <GuidSymbol name="guidVsixGroups" value="{ac774974-316f-46c7-9dc1-b60ae8927925}">
+      <IDSymbol name="OTHER_WINDOWS" value="0x09876" />
+    </GuidSymbol>
+
+    <GuidSymbol name="guidtest" value="{6e25c314-f3a7-413e-bc8f-3eaad030050f}">
+      <IDSymbol name="OTHER_WINDOWS_TESTBUTTON" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
