@@ -3,7 +3,12 @@
     <Metadata>
         <Identity Id="ExtensibilityCommandGroups.c403e4bb-07c7-4176-8c06-955972cddaff" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>Extensibility Command Groups</DisplayName>
-        <Description>Empty VSIX Project.</Description>
+        <Description xml:space="preserve">Provides base functionality for extensions targeting Visual Studio extension authors</Description>
+        <MoreInfo>https://github.com/madskristensen/ExtensibilityCommandGroups</MoreInfo>
+        <License>Resource\LICENSE</License>
+        <Icon>Resources\Icon.png</Icon>
+        <PreviewImage>Resources\Icon.png</PreviewImage>
+        <Tags>vsix, vsct</Tags>
     </Metadata>
     <Installation AllUsers="true">
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />

@@ -11,14 +11,14 @@
       </Group>
     </Groups>
 
-    <Buttons>
+    <!--<Buttons>
       <Button guid="guidtest" id="OTHER_WINDOWS_TESTBUTTON" priority="0x0100" type="Button">
         <Parent guid="guidVsixGroups" id="OTHER_WINDOWS" />
         <Strings>
           <ButtonText>Invoke Command1</ButtonText>
         </Strings>
       </Button>
-    </Buttons>
+    </Buttons>-->
   </Commands>
 
   <Symbols>
@@ -28,8 +28,8 @@
       <IDSymbol name="OTHER_WINDOWS" value="0x09876" />
     </GuidSymbol>
 
-    <GuidSymbol name="guidtest" value="{6e25c314-f3a7-413e-bc8f-3eaad030050f}">
+    <!--<GuidSymbol name="guidtest" value="{6e25c314-f3a7-413e-bc8f-3eaad030050f}">
       <IDSymbol name="OTHER_WINDOWS_TESTBUTTON" value="0x0100" />
-    </GuidSymbol>
+    </GuidSymbol>-->
   </Symbols>
 </CommandTable>
